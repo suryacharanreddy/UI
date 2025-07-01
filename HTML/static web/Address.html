@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Delivery Details</title>
+</head>
+<body>
+    <h1>Address Details</h1>
+    <form action="/delivery">
+        <input type="text" required placeholder="Name" />
+        <input type="number" required placeholder="10-digit number" /><br><br>
+        <input type="number" required placeholder="pincode" />
+        <input type="text" required placeholder="Locality" /><br><br>
+        <textarea rows=5 cols="40" placeholder="Address(Area and Street)"></textarea><br><br>
+        <input type="text" required placeholder="City/District/Town" />
+        <select>
+            <option value="" disabled selected>--select state--</option>
+            <option>AP</option>
+            <option>MP</option>
+            <option>KA</option>
+            <option>TN</option>
+            <option>KL</option>
+            <option>TL</option>
+            <option>MH</option>
+        </select><br><br>
+        <input type="text" required placeholder="Landmark(optional)" />
+        <input type="number" required placeholder="Alternative (phonenumber)" /><br><br>
+        <label>Address type:</label><br><br>
+        <input type="radio" name="place" />Home
+        <input type="radio" name="place" />Work<br><br>
+        <input type="submit" value="SAVE" style="background-color: blue;" />
+        <input type="reset" value="cancel" />
+
+    </form>
+</body>
+</html>

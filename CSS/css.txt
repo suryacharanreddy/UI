@@ -1,0 +1,35 @@
+How many ways can we apply CSS?
+3 ways:1.Inline CSS               No reuseablilty.
+       2.Internal/Ambeded CSS     page level reuseablilty we cant not connect with other page.
+       3.External CSS             reuseablilty
+Rule-1:Nearest Style has highest priority in a html page.
+
+CSS selector?
+1.Tag/Element selector.
+2.Group of tag/element selector.
+3.Class selector.                   [.]
+4.Id selector.                      [#]
+5.Group of class,id & tag selector.
+6.Attribute selector.
+7. Universal Selector.
+
+Rule 2: CSS selector specificity-order:
+        Inline>id selector>class>tag/element selector.
+
+Bootstrap: HTML, CSS,JS library for developing a Responsive web design.
+
+Bootstrap component: A Group of styles
+             1. Alert
+             2. Accordion
+             3. Button
+             4. Badge
+             5. Card
+             6. Form
+             7. List
+             8. Table
+             9. Navbar
+             10. Model
+             11. Progress
+             12. Grid
+             13. Toast
+             14. Dropdown

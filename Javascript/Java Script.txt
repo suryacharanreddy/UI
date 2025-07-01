@@ -1,0 +1,5 @@
+1.Scripting programming language for web interactivty.
+2.It is a Light weigth programming Language.
+3.It is Loosly typed language.
+4.Dynamic typed languaged has no multiple data types we only use ["var"].
+5.Using with "var" we can write any type of data. 

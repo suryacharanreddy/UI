@@ -1,0 +1,50 @@
+Date :12/06/25
+HTML
+Different types of web browsers and their engines:
+1. Chrome ->v8 engine
+2. Mozilla Firefox -> Spider Monkey
+3. Microsoft Edge -> Chakra
+4. Safari -> Core
+
+ASSIGNMENT:
+Write tag names, their description, and syntax for at least 60 tags
+
+Date: 13/06/25
+Document tags  :<html> ,<head>, <body>
+Sturcture tags :div ,section,article,header,aside,footer
+Text Formating :h,h1,h2,h3......,h6, <p>,<span>,<i>,<b>,<strong>
+Image tag      :<img />
+Link tag       :<a>   </a>
+List tags      :<ol>,<ul>,<li>
+Table tags     :<table>,<theard>,<tr>,<th>,<tbody>,<td>
+Form Tags      :<form>,<input>,<select>,<label>,<button>,<option>,<textarea>
+Frame tags     :<iframe>
+Html new tags  :audio,video,canvas,figure and caption,mark<addres>,<nav>
+
+
+PRD:product requirement document.
+Wire Frame
+Figma
+Addition concepts to Learn.
+
+Validation Attributes
+1)required
+2)readonly
+3)diabled
+4)min             ]
+5)max             ]used for number
+6)value ---------->default value
+7)placeholder----->providing info to user
+8)minlength      ]
+9)maxlength      ]used for text
+10)name          ]
+11)id            ]used for javascript dom
+12)tabindex      
+13)pattern ------->regular expression
+
+BLOCK LEVEL AND INLINE ELEMENTS:-
+Block level tags/ELEMENTS:-                                  |     Inline level tags/ELEMENTS:-
+1.All block level elements always starts with new row.       |1.This tags never starts in Newline.           
+2."  "  "   "   "  "   "  " occupy complete width.           |2.This elements dont occupy complete line.
+3.They takes top and bottom margin.                          |3.This elements starts anywhere in the line without concern of marign.
+eg:-<div>,<h1>,<p>                                           |eg:-<a>,<i>,<span>
