@@ -3,3 +3,29 @@
 3.It is Loosly typed language.
 4.Dynamic typed languaged has no multiple data types we only use ["var"].
 5.Using with "var" we can write any type of data. 
+Datatypes:
+1.primitive datatypes and non primitive datatypes.
+primitive datatypes:          |  Non primitive datatypes:
+1.number                      |  1.object
+2.string                      |     []js array
+3.boolean                     |     {}js object
+4.undefined                   |
+5.bigint
+6.null
+7.symbol
+
+JS Array:-
+1.Group of elements as are entity.
+2.using[].
+3.Allowed duplicates and hetrogenous elements.
+4.Array elements are string based indexing.
+5.Array is a iterable object
+    -for loop
+    -whileloop
+    -do while loop
+    -for-of
+JS Object:-
+    1.Group of key value paris as an entity.
+    2.we use {} to represent object.
+    3.Dulipcate keys are not allowed.
+    
