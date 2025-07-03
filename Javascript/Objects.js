@@ -1,5 +1,5 @@
 let a={}//empty object
-let b={'name':45,'age':21,}
+let b={'name':'surya','age':21,}
 let c={
     'one':1,
     'two':2,
@@ -7,4 +7,12 @@ let c={
     }
 console.log(a)
 console.log(b)    
+console.log(c)
+console.log(b.name)
+console.log(c.loc)
+b.age=24
+c.three=38
+console.log(b)
+console.log(c)
+delete c.one
 console.log(c)
