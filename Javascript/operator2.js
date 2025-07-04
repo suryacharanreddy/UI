@@ -8,3 +8,5 @@ if (sal>=40000){
 else{
     console.log("You are not eligible for the loan");
 }
+let num=34
+console.log(num>=100 && num<=999)
