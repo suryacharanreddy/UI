@@ -5,7 +5,7 @@ if(sal>=40000){
 else{
     console.log("Your Not eligible for the loan")
 }
-//it is iterative of statement can write a cod ein a single line
+//it is iterative of statement can write a code in a single line
 var esal=50000
 esal>=40000 ? console.log("eligible") : console.log("not eligible")
 
