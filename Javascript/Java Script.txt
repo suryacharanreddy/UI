@@ -34,3 +34,5 @@ JS Object:-
     4.Indexing concept not applicable.
     5.JS object is not iterable object.
     6.There is no length property.
+ES6:-
+String Literal:TO make code readable
