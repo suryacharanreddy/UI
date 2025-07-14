@@ -42,5 +42,15 @@ require()           |    '----->strings
 setInterval()       |Promise()
 clearInterval()     |Set
 
+
+Fat_arrow_function:-
+    -concise/shorten the code.
+    -Implicit return : writing the function without using return.
+    -this Keyword---{}
+    -resolves function overrinding conflicts (check -thisKeyWord file)
+    -function hoisting and resolving conflict 
+
 ES6:-
 String Literal:TO make code readable
+
+
