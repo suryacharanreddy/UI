@@ -53,4 +53,12 @@ Fat_arrow_function:-
 ES6:-
 String Literal:TO make code readable
 
+Array Methods:-
+    push(){}
+    pop(){}
+    shift(){}
+    unshift(){}
+    reverse(){}
+    indexof(){}
+how to remove duplicates from given array?
 
