@@ -1,0 +1,10 @@
+MYSQL:-
+	DDL- Data Defination Language   /CREATE ,ALTER, TURNCATE, DROP COMMANDS
+	DQL- Data Query Language        /SELECT COMMAND
+	DML- Data manipulation language /INSEERT ,UPDATE, DELETE COMMANDS.
+	DCL/TCL- Data Control Language. /GRANT ,REVOKE ,ROLLBACK ,SVAEPOINT ,COMMIT. COMMAND.
+
+
+Wild card operators:-
+'%'- matches one or more characters.
+'_'- matches exactly one character.
