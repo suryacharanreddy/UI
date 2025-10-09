@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+}
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:white;
+    padding: 5px;}
+.navdiv{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.text{
+    color:black;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+.button{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 5px;
+    line-height: 1;
+}
+.list{
+    list-style: none;
+    display:flex;
+    gap:20px;
+    font-size: 20px;
+    padding:10px;
+}
+.list a{
+    color: rgb(23, 162, 242);;
+    font-weight: bold;
+}
