@@ -1,42 +1,66 @@
-<div class="logo">
-  <a href="home.html" class="text-decoration-none">
-    <span class="movie-text">MOVIE</span>
-    <button class="hub-btn">HUB</button>
-  </a>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Hub - Watchlist</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .movie {
+      border: 1px solid #444;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 10px;
+      display: inline-block;
+      width: 200px;
+      background: #222;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    button {
+      background: crimson;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: darkred;
+    }
+  </style>
+</head>
+<body>
 
-<style>
-  .logo {
-    background-color: #00a2ff; /* blue background like your image */
-    padding: 20px;
-    display: flex;
-    align-items: center; /* ✅ vertically centers MOVIE & HUB */
-  }
+  <h1>🎬 Movie Hub</h1>
 
-  .movie-text {
-    color: black;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 1; /* keeps text height tight */
-  }
+  <div class="movie">
+    <img src="images/movie1.jpg" alt="Movie 1">
+    <h3>Inception</h3>
+    <button onclick="addToWatchlist('Inception')">Add to Watchlist</button>
+  </div>
 
-  .hub-btn {
-    color: white;
-    background-color: black;
-    font-size: 28px;
-    font-weight: bold;
-    border: none;
-    padding: 4px 8px;
-    margin-left: 6px;
-    line-height: 1; /* ✅ matches text height */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+  <div class="movie">
+    <img src="images/movie2.jpg" alt="Movie 2">
+    <h3>Avatar</h3>
+    <button onclick="addToWatchlist('Avatar')">Add to Watchlist</button>
+  </div>
 
-  .hub-btn:hover {
-    background-color: gold;
-    color: black;
-  }
-</style>
+  <div class="movie">
+    <img src="images/movie3.jpg" alt="Movie 3">
+    <h3>Interstellar</h3>
+    <button onclick="addToWatchlist('Interstellar')">Add to Watchlist</button>
+  </div>
+
+  <p><a href="watchlist.html" style="color:yellow;">Go to Watchlist</a></p>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
