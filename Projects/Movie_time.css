@@ -3,13 +3,30 @@ body{
 }
 *{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
-    background-color:white;
-    padding: 5px;}
+    background-color:black;
+    padding: 15px 30px;
+    position :fixed;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top:20px;
+    right:20px;
+    left:20px;
+    gap:10px;
+    width:100%;
+    z-index:1000;
+    overflow:hidden;
+}
+.list{
+    margin-right: 10px;
+}
 .navdiv{
-    display:flex;
     justify-content:space-between;
     align-items: center;
 }
@@ -18,14 +35,14 @@ body{
     align-items: center;
 }
 .text{
-    color:black;
+    color:white;
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
 }
 .button{
-    background-color: black;
+    background-color: rgb(23, 162, 242);;
     color:white;
     border-radius: 5px;
     border: none;
@@ -42,7 +59,7 @@ body{
     padding:10px;
 }
 .list a{
-    color: rgb(23, 162, 242);;
+    color: rgb(23, 162, 242);
     font-weight: bold;
 }
 
@@ -53,6 +70,9 @@ h1{
     margin-left: 20px;
 }
 
+.content{
+    margin-top: 90px;;
+}
 .movie-container {
     position: relative;
     width: 100%;
@@ -65,20 +85,22 @@ h1{
     gap: 10px;               
     padding: 10px;
     scrollbar-width: none;
-     background-color: #f5f5f5;
+    
 }
 .movie-gallery::-webkit-scrollbar {
     display: none;            /* hide scrollbar for webkit browsers */
 }
 
 .movie-card {
-    width: 250px;      /* small width */
-    height: 375px;     /* small height */
+    width: 200px;      /* small width */
+    height: 300px;     /* small height */
     margin: 10px 0 0 20px;  /* top margin + left margin to align left */
     border-radius: 15px;
     overflow: hidden;
     flex-shrink: 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;  /* for overlay text positioning */
+    transition: transform 0.3s ease; /* smooth zoom effect */
 }
 
 .movie-card img {
@@ -86,4 +108,34 @@ h1{
     height: 100%;
     object-fit: cover;  /* image covers entire container */
     display: block;
+}
+
+
+/* Hidden text overlay */
+.movie-card h3{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: yellow;
+  background: rgba(0,0,0,0.6);
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin: 3px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 90%;
+  font-size: 14px;
+}
+
+.movie-card:hover h3 {
+  opacity: 1;
+}
+
+/* Slight zoom on hover */
+.movie-card:hover img {
+  transform: scale(1.1);
+}
+
+.ott-text{
+    color:white
 }
