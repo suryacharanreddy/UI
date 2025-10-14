@@ -42,7 +42,7 @@ let result = multiply(3, 4);
 console.log("Result is:", result); // ✅ Output: Result is: 12
  */
 
-let lapsCompleted = 0;
+/*let lapsCompleted = 0;
 
 function incrementLap() {
     lapsCompleted=lapsCompleted+1
@@ -53,4 +53,15 @@ incrementLap(); // 0 → 1
 incrementLap(); // 1 → 2
 incrementLap(); // 2 → 3
 
-console.log(lapsCompleted); // Output: 3
+console.log(lapsCompleted); // Output: 3*/
+
+let eids=[43,84,72,24,19,30,93,56];
+let array=[];
+for (i=0; i<eids.length; i++){
+    if(eids[i]>50){
+        array.push(eids[i])
+    }
+}
+console.log(array);
+
+
