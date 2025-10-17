@@ -62,7 +62,7 @@ body{
     line-height: 1;
 }
 .logo button{
-    background-color: rgb(23, 162, 242);;
+    background-color: rgb(23, 162, 242);
     color:white;
     border-radius: 5px;
     border: none;
@@ -143,4 +143,15 @@ h1{
 
 .ott-text{
     color:white
+}
+
+.form div{
+    background-color: rgb(23, 162, 242);
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: left;
 }

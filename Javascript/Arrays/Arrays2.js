@@ -12,6 +12,6 @@ console.log(enames)
 //delete
 delete enames[1];
 console.log(enames)
-//we cant delete the entire array with the above method
+//we can delete the entire array with the below method
 enames.length=0;
 console.log(enames)
