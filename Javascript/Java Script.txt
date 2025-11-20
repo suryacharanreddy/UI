@@ -35,7 +35,7 @@ JS Object:-
     6.There is no length property.
 
 JS function:-       | JS classes
-alert()             |Obejct--->keys()
+alert()             |Object--->keys()
 prompt()            |     '--->values
 fetch()             |Json----->parse
 require()           |    '----->strings
