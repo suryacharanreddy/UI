@@ -62,3 +62,18 @@ Array Methods:-
     indexof(){}
 how to remove duplicates from given array?
 
+using for of method , hashmap nad sperad of operator we can do this things:
+    1.Creating a new array/object
+    2.Merge arrays/objects.
+    3.Extending array-elements/object-properties
+
+ES6 feature-set():- used to remove dulpilcates from an array.
+
+
+react important concepts:
+asycn functions
+Fat_arrow_function
+import and export
+object destructring
+spread operators
+array Methods
