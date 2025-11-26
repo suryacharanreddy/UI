@@ -72,6 +72,9 @@ ES6 feature-set():- used to remove dulpilcates from an array.
 
 react important concepts:
 asycn functions
+    a.callback
+    b.Promise
+    c.asycn,await
 Fat_arrow_function
 import and export
 object destructring
