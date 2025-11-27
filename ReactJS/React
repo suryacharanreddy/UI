@@ -1,0 +1,13 @@
+how to start React :
+npx create-react-app react31
+cd react31
+npm start
+React Roadmap:-
+    React intro,installation
+    React components Deep Drive
+    React 16.8>Functional components
+    React Styling/[Boots strap]
+    React props, props drilling
+    React State
+    React event hadling
+          
