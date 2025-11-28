@@ -10,4 +10,5 @@ React Roadmap:-
     React props, props drilling
     React State
     React event hadling
-          
+Using react expression we can read variables "{}"
+learn importing component into compponent using "props"
