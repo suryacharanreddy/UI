@@ -1,14 +1,10 @@
-//import CompA from "./props/CompA"
-//import CompB from "./props/CompB"
-import Message1 from "./State/Message1"
-import Message from "./State/Message"
-import Counter from "./State/Counter"
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import Message from "./Styling/Message";
+import Nav from "./Styling/Nav";
 let App=()=>{
     return <div>
-        <h2>App component</h2>
-        <Counter/>
-        <Message1/>
-       <Message/>
+        <Nav/>
+        <Message/>
         </div>
 }
 export default App;
