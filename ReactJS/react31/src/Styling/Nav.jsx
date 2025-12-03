@@ -1,6 +1,6 @@
 const Nav=()=>{
     return <>
-            <nav className='navbar navbar-dark bg-dark'>
+            <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
                 <a href="./index" className='navbar-brand'>Logo</a>
                 <div className="ml-auto">
                     <ul className='navbar-nav'>
