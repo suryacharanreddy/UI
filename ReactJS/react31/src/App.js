@@ -1,10 +1,10 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import Message from "./Styling/Message";
-import Nav from "./Styling/Nav";
+import User from "./APIs/User";
+//import Nav from "./Styling/Nav";
 let App=()=>{
     return <div>
-        <Nav/>
-        <Message/>
+        
+        <User/>
         </div>
 }
 export default App;

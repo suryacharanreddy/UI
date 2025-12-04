@@ -12,3 +12,9 @@ React Roadmap:-
     React event hadling
 Using react expression we can read variables "{}"
 learn importing component into compponent using "props"
+
+Rest API 
+URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+Required Fields:None 
+Access Type:Public
