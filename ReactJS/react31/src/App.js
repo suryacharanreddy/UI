@@ -1,10 +1,10 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import User from "./APIs/User";
+import Users1 from "./APIs/Users1";
 //import Nav from "./Styling/Nav";
 let App=()=>{
     return <div>
         
-        <User/>
+        <Users1/>
         </div>
 }
 export default App;

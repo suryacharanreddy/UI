@@ -18,3 +18,12 @@ URL:https://jsonplaceholder.typicode.com/users
 Method Type:GET
 Required Fields:None 
 Access Type:Public
+
+usereffect-function ,cleanup function.
+dependecy list ,array
+key -keyword
+
+props
+props drilling
+State
+event handling
