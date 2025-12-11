@@ -27,3 +27,4 @@ props
 props drilling
 State
 event handling
+binding 
