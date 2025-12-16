@@ -4,12 +4,17 @@ cd react31
 npm start
 React Roadmap:-
     React intro,installation
-    React components Deep Drive
+    React components (immutable)
     React 16.8>Functional components
     React Styling/[Boots strap]
     React props, props drilling
-    React State
+    React State (mutable)
     React event hadling
+    React event binding
+    Http/Axios
+    React hooks
+    Routing
+    React Class component
 Using react expression we can read variables "{}"
 learn importing component into compponent using "props"
 
@@ -18,6 +23,12 @@ URL:https://jsonplaceholder.typicode.com/users
 Method Type:GET
 Required Fields:None 
 Access Type:Public
+
+React hook:
+    -useState()
+    -useeffect()
+    -useRefrence
+
 
 usereffect-function ,cleanup function.
 dependecy list ,array

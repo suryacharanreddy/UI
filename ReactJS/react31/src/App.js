@@ -1,21 +1,13 @@
-import NavBar from './NavBar/NavBar';
-import {BrowserRouter as Rounter,Routes,Route} from 'react-router-dom'
-import "bootstrap/dist/css/bootstrap.min.css"; 
-import Home from './ContactApp/Home';
-import ContactApp from './ContactApp/ContactApp';
-import ContactDetails from './ContactApp/ContactDetails';
-let App =()=>{
+import React from 'react'
+import Message from './ClassComponent/Message'
+import ComponentCls from './ClassComponent/ComponentCls'
+import StateCls from './ClassComponent/StateCls'
+let App=()=>{
     return <div>
-                <Rounter>
-                    <NavBar/>
-                    <Routes>
-                        <Route path="/"  element={<Home/>}/>
-                        <Route path="/home"  element={<Home/>}/>
-                        <Route path="/contactApp"  element={<ContactApp/>}/>
-                        <Route path="/ContactDetails"  element={<ContactDetails/>}/>
-                    </Routes>
-
-                </Rounter>
-            </div>
+        <h3>App component</h3>
+        <Message/>
+        <ComponentCls/>
+        <StateCls/>
+    </div>
 }
 export default App;
