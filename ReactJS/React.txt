@@ -24,11 +24,12 @@ Method Type:GET
 Required Fields:None 
 Access Type:Public
 
-React hook:
+React hooks:
     -useState()
     -useeffect()
-    -useRefrence
+    -useRef()-we use this avoid javaScript dom manpulation methods in reactjs 
 
+ReactRouting Package
 
 usereffect-function ,cleanup function.
 dependecy list ,array
@@ -40,3 +41,5 @@ State
 event handling
 binding 
 API testing -postman API
+
+Why we use reactjs 

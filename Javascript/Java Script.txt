@@ -80,3 +80,4 @@ import and export
 object destructring
 spread operators
 array Methods
+Learn Dom and Dom Manpulation
